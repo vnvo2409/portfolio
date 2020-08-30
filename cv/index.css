@@ -3,7 +3,7 @@
 /* ===GLOBAL=== */
 :root {
   --classic-blue: #34558b;
-  --margin-article: 2rem;
+  --margin-article: 0rem;
 }
 
 body {
@@ -97,6 +97,10 @@ main {
   flex-direction: column;
 }
 
+.article-box {
+  margin-bottom: var(--margin-article);
+}
+
 .article-title {
   color: var(--classic-blue);
   font-size: 1.4rem;
@@ -107,7 +111,6 @@ main {
 .article-list {
   list-style: none;
   padding: 0;
-  margin-bottom: var(--margin-article);
 }
 
 .article-list-item:not(:last-child) {
