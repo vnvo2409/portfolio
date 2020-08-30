@@ -2,8 +2,9 @@
 
 /* ===GLOBAL=== */
 :root {
-  --classic-blue: #34558b;
+  --classic-blue: rgba(0, 127, 255, 1);
   --margin-article: 1rem;
+  --blue-gradient: linear-gradient(90deg, rgba(0, 127, 255, 1) 0%, rgba(0, 191, 255, 1) 100%);
 }
 
 body {
@@ -101,9 +102,20 @@ main {
   margin-bottom: var(--margin-article);
 }
 
+.article-title-box {
+  background: var(--blue-gradient);
+  margin-right: calc(-210mm * 0.05);
+  border-top-left-radius: 100000px;
+  border-bottom-left-radius: 100000px;
+  margin-left: -2.5%;
+  padding: .3rem;
+  padding-right: 5%;
+  padding-left: 2.5%;
+}
+
 .article-title {
-  color: var(--classic-blue);
-  font-size: 1.4rem;
+  color: white;
+  font-size: 1.3rem;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -155,14 +167,14 @@ main {
   margin-left: 2rem;
 }
 
-/* ===MAIN INVOLVEMENT & HONOR | SKILL=== */
+/* ===MAIN ACTIVITY & HONOR | SKILL=== */
 
 .article-container {
   display: flex;
   justify-content: space-between;
 }
 
-.article-honors-skills {
+.article-activities-skills {
   width: 48%;
 }
 
