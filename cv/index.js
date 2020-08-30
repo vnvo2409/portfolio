@@ -50,49 +50,6 @@ const make_projects = () => {
 
 document.getElementById('projects').appendChild(make_projects());
 
-const make_educations = () => {
-  const educations = [{
-    school: 'INSA Toulouse',
-    time: '09/2018 - Present',
-    descriptions: [
-      'Expected graduation date: 06/2023',
-      'Bachelor of Engineering: Applied Mathematics'
-    ]
-  }];
-
-  let list = document.createElement('ul');
-  list.className = 'education-list';
-  for (let i = 0; i < educations.length; i++) {
-    let education = document.createElement('li');
-
-    let name = document.createElement('p');
-    name.innerHTML = educations[i].school;
-    name.className = 'education-school';
-    let time = document.createElement('time');
-    time.innerHTML = educations[i].time;
-    time.className = 'education-time';
-    let title = document.createElement('div');
-    title.className = 'education-title';
-    title.appendChild(name);
-    title.appendChild(time);
-    education.appendChild(title);
-
-    let descriptions = document.createElement('ul');
-    descriptions.className = 'education-descriptions';
-    for (let description of educations[i].descriptions) {
-      let li = document.createElement('li');
-      li.innerHTML = description;
-      descriptions.appendChild(li);
-    }
-    education.appendChild(descriptions);
-
-    list.appendChild(education);
-  }
-  return list;
-};
-
-document.getElementById('education').appendChild(make_educations());
-
 const make_skills = () => {
   const skills = [
     {

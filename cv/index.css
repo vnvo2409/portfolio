@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 
 /* ===GLOBAL=== */
+:root {
+  --classic-blue: #34558b;
+  --margin-article: 2rem;
+}
 
 body {
   background: rgb(204, 204, 204);
@@ -48,6 +52,7 @@ header {
   display: flex;
   justify-content: center;
   padding: 0 5%;
+  padding-bottom: 1rem;
 }
 
 /* ===HEADER SUMMARY=== */
@@ -59,10 +64,11 @@ header {
 #summary-name {
   font-weight: 500;
   font-size: 3rem;
+  color: var(--classic-blue);
 }
 
 #summary-description {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 /* ===HEADER CONTACT=== */
@@ -90,6 +96,44 @@ main {
   flex-direction: column;
 }
 
+.article-title {
+  color: var(--classic-blue);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+/* ===MAIN EDUCATION=== */
+
+.education-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: var(--margin-article);
+}
+
+.education-title {
+  display: flex;
+}
+
+.school-name {
+  font-weight: 600;
+  margin-right: 2.5rem;
+}
+
+.school-region {
+  font-style: italic;
+}
+
+.school-begin {
+  margin-left: auto;
+}
+
+.school-descriptions {
+  margin-top: .5rem;
+  list-style: square;
+}
+
+/* ===MAIN PROJECT=== */
+
 .project-list {
   list-style: none;
   padding: 0;
@@ -100,25 +144,6 @@ main {
   display: inline-block;
   margin-bottom: .5rem;
   margin-top: .5rem;
-}
-
-.education-list {
-  list-style: none;
-  padding: 0;
-}
-
-.education-title {
-  display: flex;
-  margin-bottom: .5rem;
-}
-
-.education-time {
-  margin-left: auto;
-  order: 2;
-}
-
-.education-school {
-  margin: 0;
 }
 
 .skill-list {
