@@ -3,7 +3,7 @@
 /* ===GLOBAL=== */
 :root {
   --classic-blue: #34558b;
-  --margin-article: 0rem;
+  --margin-article: 1rem;
 }
 
 body {
@@ -155,15 +155,26 @@ main {
   margin-left: 2rem;
 }
 
-/* ===MAIN SKILL=== */
+/* ===MAIN INVOLVEMENT & HONOR | SKILL=== */
 
-.skill-list {
-  list-style: none;
-  padding: 0;
+.article-container {
+  display: flex;
+  justify-content: space-between;
 }
 
+.article-honors-skills {
+  width: 48%;
+}
+
+/* ===MAIN HONOR=== */
+
+
+
+/* ===MAIN SKILL=== */
+
 .skill-title {
-  margin-top: .5rem;
+  vertical-align: middle;
+  font-weight: 600;
   margin-bottom: .5rem;
 }
 
