@@ -43,6 +43,7 @@ page[size="A4"] {
 .icon {
   height: 1.2rem;
   vertical-align: middle;
+  font-weight: 400;
 }
 
 /* ===HEADER=== */
@@ -100,15 +101,25 @@ main {
   color: var(--classic-blue);
   font-size: 1.4rem;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
-/* ===MAIN EDUCATION=== */
-
-.education-list {
+.article-list {
   list-style: none;
   padding: 0;
   margin-bottom: var(--margin-article);
 }
+
+.article-list-item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.descriptions {
+  margin-top: .5rem;
+  list-style: square;
+}
+
+/* ===MAIN EDUCATION=== */
 
 .education-title {
   display: flex;
@@ -127,24 +138,21 @@ main {
   margin-left: auto;
 }
 
-.school-descriptions {
-  margin-top: .5rem;
-  list-style: square;
-}
-
 /* ===MAIN PROJECT=== */
 
-.project-list {
-  list-style: none;
-  padding: 0;
-  margin-top: .5rem;
+.project-title {
+  vertical-align: middle;
+  display: flex;
+  font-weight: 600;
+  margin-bottom: .5rem;
 }
 
-.project-title {
-  display: inline-block;
-  margin-bottom: .5rem;
-  margin-top: .5rem;
+.project-summary {
+  font-style: italic;
+  margin-left: 2rem;
 }
+
+/* ===MAIN SKILL=== */
 
 .skill-list {
   list-style: none;

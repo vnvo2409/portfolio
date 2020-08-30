@@ -34,25 +34,60 @@
     <main>
       <article>
         <div class="article-title">Education</div>
-        <ul class="education-list">
-          <li class="education-title">
-            <div class="school-name">INSA Toulouse</div>
-            <div class="school-region">Toulouse, France</div>
-            <time class="school-begin" datetime="2018-09-01">September 2018</time>
-            &nbsp;
-            <span>-</span>
-            &nbsp;
-            <time class="school-end" datetime="present">present</time>
+        <ul class="article-list">
+          <li class="article-list-item">
+            <div class="education-title">
+              <div class="school-name">INSA Toulouse</div>
+              <div class="school-region">Toulouse, France</div>
+              <time class="school-begin" datetime="2018-09-01">September 2018</time>
+              &nbsp;
+              <span>-</span>
+              &nbsp;
+              <time class="school-end" datetime="present">present</time>
+            </div>
+            <ul class="descriptions">
+              <li>Expected graduation date in <time datetime="2023-06-01">June 2023</time>.</li>
+              <li>Bachelor of Engineering in Applied Mathematics.</li>
+            </ul>
           </li>
-          <ul class="school-descriptions">
-            <li>Expected graduation date in <time datetime="2023-06-01">June 2023</time>.</li>
-            <li>Bachelor of Engineering in Applied Mathematics.</li>
-          </ul>
         </ul>
       </article>
       <article>
-        <h5>Projects</h5>
-        <div id="projects"></div>
+        <div class="article-title">Projects</div>
+        <ul class="article-list">
+          <li class="article-list-item">
+            <div class="project-title">
+              <img src="../res/tensorflow_icon.svg" class="icon">
+              &nbsp;
+              Tensorflow - Google Summer of Code 2020
+            </div>
+            <div class="project-summary">
+              Cloud plugins for Modular Filesystems C API
+            </div>
+            <!-- <a href="https://summerofcode.withgoogle.com/projects/#5496552598011904"></a> -->
+            <ul class="descriptions">
+              <li>Mimic the implementations from TensorFlow Core Filesystems.</li>
+              <li>Replace all dependencies from TensorFlow Core by similar ones from Google Abseil and TensorFlow C API.
+              </li>
+              <li>Ensure API/ABI compatibility between Tensorflow Core and plugins.</li>
+            </ul>
+          </li>
+          <li class="article-list-item">
+            <div class="project-title">
+              <img src="../res/google_icon.svg" class="icon">
+              &nbsp;
+              Google Cloud Cpp - Google Cloud Storage (GCS) gRPC
+            </div>
+            <div class="project-summary">
+              C++ client functions for interacting with GCS by gRPC protocol
+            </div>
+            <!-- <a href="https://github.com/googleapis/google-cloud-cpp/issues/4751"></a> -->
+            <ul class="descriptions">
+              <li>Implement a GCS emulator for testing purposes which supports both REST and gRPC using Flask.</li>
+              <li>Complete support for GCS+gRPC plugin.</li>
+            </ul>
+          </li>
+        </ul>
       </article>
       <article>
         <h5>Experiences</h5>
