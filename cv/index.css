@@ -1,0 +1,139 @@
+body {
+  background: rgb(204, 204, 204);
+  margin: 0.5rem !important;
+}
+
+a {
+  color: inherit;
+}
+
+.contact-link {
+  margin-top: .3rem;
+}
+
+page {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+page[size="A4"] {
+  width: 210mm !important;
+  height: 296.9mm !important;
+}
+
+@media print {
+
+  body,
+  page {
+    margin: 0 !important;
+    box-shadow: 0 !important;
+  }
+}
+
+header {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  padding: 0 5%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.summary {
+  width: 70%;
+  font-size: 3rem;
+}
+
+.icon {
+  font-weight: 400 !important;
+  margin-left: .3rem;
+  margin-top: 1rem;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+main {
+  margin-top: 1rem;
+  display: flex;
+  padding: 0 5%;
+  flex-direction: column;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+  margin-top: .5rem;
+}
+
+.project-title {
+  display: inline-block;
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+}
+
+.education-list {
+  list-style: none;
+  padding: 0;
+}
+
+.education-title {
+  display: flex;
+  margin-bottom: .5rem;
+}
+
+.education-time {
+  margin-left: auto;
+  order: 2;
+}
+
+.education-school {
+  margin: 0;
+}
+
+.skill-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-title {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.experience-list {
+  list-style: none;
+  padding: 0;
+}
+
+.experience-name {
+  display: flex;
+  margin-bottom: .5rem;
+}
+
+.experience-title {
+  margin: 0;
+  margin-top: .5rem;
+}
+
+.experience-time {
+  margin-left: auto;
+  order: 2;
+}
+
+h5 {
+  margin-top: 0;
+}
