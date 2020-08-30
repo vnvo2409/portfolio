@@ -189,27 +189,3 @@ main {
   font-weight: 600;
   margin-bottom: .5rem;
 }
-
-.experience-list {
-  list-style: none;
-  padding: 0;
-}
-
-.experience-name {
-  display: flex;
-  margin-bottom: .5rem;
-}
-
-.experience-title {
-  margin: 0;
-  margin-top: .5rem;
-}
-
-.experience-time {
-  margin-left: auto;
-  order: 2;
-}
-
-h5 {
-  margin-top: 0;
-}
