@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+/* ===GLOBAL=== */
+
 body {
   background: rgb(204, 204, 204);
   margin: 0.5rem !important;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 a {
   color: inherit;
-}
-
-.contact-link {
-  margin-top: .3rem;
+  text-decoration: none;
 }
 
 page {
@@ -34,6 +36,13 @@ page[size="A4"] {
   }
 }
 
+.icon {
+  height: 1.2rem;
+  vertical-align: middle;
+}
+
+/* ===HEADER=== */
+
 header {
   margin-top: 1rem;
   display: flex;
@@ -41,30 +50,38 @@ header {
   padding: 0 5%;
 }
 
-.contact {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
+/* ===HEADER SUMMARY=== */
+
+#summary-box {
+  width: 60%;
 }
 
-.summary {
-  width: 70%;
+#summary-name {
+  font-weight: 500;
   font-size: 3rem;
 }
 
-.icon {
-  font-weight: 400 !important;
-  margin-left: .3rem;
-  margin-top: 1rem;
+#summary-description {
+  font-size: 1.2rem;
 }
 
-.text-right {
+/* ===HEADER CONTACT=== */
+
+#contact-box {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.contact-link {
+  font-weight: 400 !important;
+  line-height: 1.7;
+  display: inline;
+  vertical-align: middle;
   text-align: right;
 }
 
-.text-center {
-  text-align: center;
-}
+/* ===MAIN=== */
 
 main {
   margin-top: 1rem;
