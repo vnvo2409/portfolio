@@ -60,7 +60,7 @@ header {
 /* ===HEADER SUMMARY=== */
 
 #summary-box {
-  width: 60%;
+  width: 50%;
 }
 
 #summary-name {
@@ -78,7 +78,7 @@ header {
 #contact-box {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 50%;
 }
 
 .contact-link {
@@ -138,11 +138,13 @@ main {
 
 .education-title {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .school-name {
   font-weight: 600;
-  margin-right: 2.5rem;
+  flex: 0 0 100%;
+  width: 100%;
 }
 
 .school-region {
