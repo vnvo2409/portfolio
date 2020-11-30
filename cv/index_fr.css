@@ -3,7 +3,7 @@
 /* ===GLOBAL=== */
 :root {
   --classic-blue: rgba(0, 127, 255, 1);
-  --margin-article: 0.75rem;
+  --margin-article: 0.5rem;
   --blue-gradient: linear-gradient(90deg, rgba(0, 127, 255, 1) 0%, rgba(0, 191, 255, 1) 100%);
 }
 
@@ -50,7 +50,7 @@ page[size="A4"] {
 /* ===HEADER=== */
 
 header {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
   padding: 0 5%;
