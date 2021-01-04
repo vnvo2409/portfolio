@@ -37,7 +37,7 @@ page[size="A4"] {
   body,
   page {
     margin: 0 !important;
-    box-shadow: 0 !important;
+    box-shadow: none !important;
   }
 }
 
@@ -143,11 +143,10 @@ main {
 
 .school-name {
   font-weight: 600;
-  flex: 0 0 100%;
-  width: 100%;
 }
 
 .school-region {
+  width: 100%;
   font-style: italic;
 }
 
