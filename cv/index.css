@@ -5,6 +5,7 @@
   --classic-blue: rgba(0, 127, 255, 1);
   --margin-article: 1rem;
   --blue-gradient: linear-gradient(90deg, rgba(0, 127, 255, 1) 0%, rgba(0, 191, 255, 1) 100%);
+  font-size: 14.5px;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 
 a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 page {
@@ -50,7 +51,7 @@ page[size="A4"] {
 /* ===HEADER=== */
 
 header {
-  margin-top: 2.5rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
   padding: 0 5%;
@@ -87,6 +88,7 @@ header {
   display: inline;
   vertical-align: middle;
   text-align: right;
+  text-decoration: none;
 }
 
 /* ===MAIN=== */
