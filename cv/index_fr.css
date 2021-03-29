@@ -3,8 +3,9 @@
 /* ===GLOBAL=== */
 :root {
   --classic-blue: rgba(0, 127, 255, 1);
-  --margin-article: 0.5rem;
+  --margin-article: 1rem;
   --blue-gradient: linear-gradient(90deg, rgba(0, 127, 255, 1) 0%, rgba(0, 191, 255, 1) 100%);
+  font-size: 14.5px;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 
 a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 page {
@@ -37,7 +38,7 @@ page[size="A4"] {
   body,
   page {
     margin: 0 !important;
-    box-shadow: 0 !important;
+    box-shadow: none !important;
   }
 }
 
@@ -87,6 +88,7 @@ header {
   display: inline;
   vertical-align: middle;
   text-align: right;
+  text-decoration: none;
 }
 
 /* ===MAIN=== */
