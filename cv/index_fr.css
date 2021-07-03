@@ -1,17 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
 
 /* ===GLOBAL=== */
 :root {
   --classic-blue: rgba(0, 127, 255, 1);
   --margin-article: 1rem;
-  --blue-gradient: linear-gradient(90deg, rgba(0, 127, 255, 1) 0%, rgba(0, 191, 255, 1) 100%);
+  --blue-gradient: linear-gradient(
+    90deg,
+    rgba(0, 127, 255, 1) 0%,
+    rgba(0, 191, 255, 1) 100%
+  );
   font-size: 14.5px;
 }
 
 body {
   background: rgb(204, 204, 204);
   margin: 0.5rem !important;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 a {
@@ -34,7 +38,6 @@ page[size="A4"] {
 }
 
 @media print {
-
   body,
   page {
     margin: 0 !important;
@@ -110,7 +113,7 @@ main {
   border-top-left-radius: 100000px;
   border-bottom-left-radius: 100000px;
   margin-left: -2.5%;
-  padding: .3rem;
+  padding: 0.3rem;
   padding-right: 5%;
   padding-left: 2.5%;
 }
@@ -132,7 +135,7 @@ main {
 }
 
 .descriptions {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   list-style: square;
 }
 
@@ -162,7 +165,7 @@ main {
   vertical-align: middle;
   display: flex;
   font-weight: 600;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .project-summary {
@@ -183,12 +186,10 @@ main {
 
 /* ===MAIN HONOR=== */
 
-
-
 /* ===MAIN SKILL=== */
 
 .skill-title {
   vertical-align: middle;
   font-weight: 600;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
